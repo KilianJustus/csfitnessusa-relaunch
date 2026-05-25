@@ -167,6 +167,26 @@ section {
   box-shadow: var(--shadow-sm);
 }
 
+/* Dark navbar for inner pages (FAQs, Book) */
+.navbar-dark {
+  background: var(--navy);
+  padding: 0.75rem 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.navbar-dark .nav-links a {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.navbar-dark .nav-links a:hover,
+.navbar-dark .nav-links a.active {
+  color: var(--white);
+}
+
+.navbar-dark .menu-toggle span {
+  background: var(--white);
+}
+
 .navbar .container {
   display: flex;
   align-items: center;

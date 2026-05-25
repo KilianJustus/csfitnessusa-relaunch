@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CS FITNESS | EMS Training — Get Fit in 20 Minutes</title>
+  <meta name="description" content="CS FITNESS is a cutting-edge boutique fitness studio pairing advanced EMS technology with personalized 1-on-1 training. Get fit in just 20 minutes per week.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Mobile Overlay -->
+  <div class="mobile-overlay" id="mobileOverlay"></div>
+
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <a href="index.html" class="logo">CS<span>FITNESS</span></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="faqs.html">FAQs</a></li>
+        <li><a href="book.html">Book a Session</a></li>
+        <li><a href="book.html" class="btn btn-primary btn-sm nav-cta">Try For Free</a></li>
+      </ul>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Google Badge -->
+  <a href="#" class="google-badge" aria-label="Google Reviews">
+    <svg viewBox="0 0 24 24" fill="none"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92a5.06 5.06 0 01-2.2 3.32v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.1z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg>
+    <span>5.0</span>
+    <span class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+    <span>(127)</span>
+  </a>
+
+  <!-- Hero -->
+  <section class="hero" id="hero">
+    <div class="hero-content">
+      <div class="hero-badge reveal">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+        EMS Training
+      </div>
+      <h1 class="reveal">Get Fit In Just<br><span class="gradient-text">20 Minutes</span> Per Week</h1>
+      <p class="hero-subtitle reveal">Advanced Electro Muscle Stimulation paired with personal 1-on-1 training. Maximum results, minimum time.</p>
+      <div class="hero-buttons reveal">
+        <a href="book.html" class="btn btn-primary btn-lg">
+          Book Free Session
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+        <a href="#how-it-works" class="btn btn-outline btn-lg">How It Works</a>
+      </div>
+      <div class="hero-stats reveal">
+        <div class="hero-stat">
+          <div class="hero-stat-number">20</div>
+          <div class="hero-stat-label">Minutes Per Session</div>
+        </div>
+        <div class="hero-stat">
+          <div class="hero-stat-number">90%</div>
+          <div class="hero-stat-label">Muscle Fiber Activation</div>
+        </div>
+        <div class="hero-stat">
+          <div class="hero-stat-number">127+</div>
+          <div class="hero-stat-label">5-Star Reviews</div>
+        </div>
+        <div class="hero-stat">
+          <div class="hero-stat-number">FDA</div>
+          <div class="hero-stat-label">Cleared Technology</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Marquee -->
+  <div class="marquee-section">
+    <div class="marquee-track">
+      <span class="marquee-item">As Seen On Forbes</span>
+      <span class="marquee-item">FDA Cleared</span>
+      <span class="marquee-item">Personal Training</span>
+      <span class="marquee-item">EMS Technology</span>
+      <span class="marquee-item">20 Min Workouts</span>
+      <span class="marquee-item">127+ 5-Star Reviews</span>
+      <span class="marquee-item">As Seen On Forbes</span>
+      <span class="marquee-item">FDA Cleared</span>
+      <span class="marquee-item">Personal Training</span>
+      <span class="marquee-item">EMS Technology</span>
+      <span class="marquee-item">20 Min Workouts</span>
+      <span class="marquee-item">127+ 5-Star Reviews</span>
+    </div>
+  </div>
+
+  <!-- About -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-visual reveal-left">
+          <img src="https://static.wixstatic.com/media/65213d_88f4c202796843f2bb10041b63248708~mv2.png/v1/fill/w_900,h_1200,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/65213d_88f4c202796843f2bb10041b63248708~mv2.png" alt="CS FITNESS Body Assessment Results">
+          <div class="float-card">
+            <div class="float-card-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+            </div>
+            <div class="float-card-text">
+              <strong>Real-Time Adjustments</strong>
+              <span>Your trainer controls every setting live</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-content reveal-right">
+          <span class="section-label">About CS FITNESS</span>
+          <h2>Maximum Results.<br>Minimum Time.</h2>
+          <p>CS FITNESS is a cutting-edge boutique fitness studio that pairs advanced Electro Muscle Stimulation (EMS) technology with personalized 1-on-1 training. In just 20 minutes, our FDA-cleared suit activates 90% of your muscle fibers &mdash; helping you build strength, tone up, and burn fat efficiently.</p>
+          <div class="about-features">
+            <div class="about-feature">
+              <div class="about-feature-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+              </div>
+              <div class="about-feature-text">
+                <strong>Only 20 Minutes</strong>
+                <span>Equivalent to 2.5 hours of conventional gym training</span>
+              </div>
+            </div>
+            <div class="about-feature">
+              <div class="about-feature-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/></svg>
+              </div>
+              <div class="about-feature-text">
+                <strong>Joint-Friendly</strong>
+                <span>Low-impact training that improves posture &amp; reduces pain</span>
+              </div>
+            </div>
+            <div class="about-feature">
+              <div class="about-feature-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/></svg>
+              </div>
+              <div class="about-feature-text">
+                <strong>Personal 1-on-1 Training</strong>
+                <span>Your dedicated trainer guides every second of your session</span>
+              </div>
+            </div>
+          </div>
+          <a href="book.html" class="btn btn-primary">
+            Book Free Session
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Benefits -->
+  <section class="benefits" id="benefits">
+    <div class="container">
+      <div class="benefits-header reveal">
+        <span class="section-label">Why EMS?</span>
+        <h2>Fitness For Every Level</h2>
+        <p>Whether you're a seasoned athlete or just starting your fitness journey, EMS training adapts to you.</p>
+      </div>
+      <div class="benefits-grid">
+        <div class="benefit-card reveal">
+          <div class="benefit-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+          </div>
+          <h3>Time Efficient</h3>
+          <p>In one 20-minute workout, you achieve the equivalent of 2.5 hours in a conventional gym. Perfect for busy professionals.</p>
+        </div>
+        <div class="benefit-card reveal">
+          <div class="benefit-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/></svg>
+          </div>
+          <h3>Stronger &amp; Pain-Free</h3>
+          <p>Our low-impact, joint-friendly training improves strength, posture, and reduces low back pain effectively.</p>
+        </div>
+        <div class="benefit-card reveal">
+          <div class="benefit-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <h3>You Show Up, We Handle The Rest</h3>
+          <p>We provide everything you need — EMS suit, training gear, towels, and premium water. Just bring yourself.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How It Works -->
+  <section class="steps" id="how-it-works">
+    <div class="container">
+      <div class="steps-header reveal">
+        <span class="section-label">How It Works</span>
+        <h2>3 Simple Steps</h2>
+        <p>Your complete EMS experience from start to finish. Every session is fully guided by a personal trainer.</p>
+      </div>
+      <div class="steps-grid">
+        <div class="step-card reveal">
+          <div class="step-img">
+            <img src="https://static.wixstatic.com/media/65213d_c71f3411300a4944a705ba846fe8234a~mv2.jpg/v1/crop/x_0,y_1121,w_4912,h_5167/fill/w_806,h_848,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/miha%20pic%205%20suitng%20up.jpg" alt="Suiting up in EMS gear">
+          </div>
+          <div class="step-number"><span>01</span></div>
+          <h3>Suit Up</h3>
+          <p>Get suited up in our advanced EMS suit, designed to activate all 8 major muscle groups every second.</p>
+        </div>
+        <div class="step-card reveal">
+          <div class="step-img">
+            <img src="https://static.wixstatic.com/media/fb3943_d226109ddac74e3f9712655c1b3ebab9~mv2.png/v1/crop/x_26,y_0,w_1497,h_1574/fill/w_806,h_848,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/Screenshot%202024-01-19%20at%206_50_56%20PM.png" alt="20-minute EMS workout session">
+          </div>
+          <div class="step-number"><span>02</span></div>
+          <h3>20-Min Full-Body Workout</h3>
+          <p>Experience a fully-guided workout tailored to your goals. Your trainer adjusts every setting in real time.</p>
+        </div>
+        <div class="step-card reveal">
+          <div class="step-img">
+            <img src="https://static.wixstatic.com/media/65213d_d4be6f067105441995e6e66e173c13fb~mv2.jpg/v1/fill/w_806,h_848,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/MIha%20MAchine%20picture%20.jpg" alt="EMS recovery machine">
+          </div>
+          <div class="step-number"><span>03</span></div>
+          <h3>5-Minute Recovery</h3>
+          <p>Every session includes a Body Relax program, designed to help your body recover faster after training.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Transformations & Body Assessments -->
+  <section class="transformations" id="transformations">
+    <div class="container">
+      <div class="transformations-header reveal">
+        <span class="section-label">Real Results</span>
+        <h2>Member Transformations</h2>
+        <p>Regular InBody assessments are a core part of every member's journey. As your body evolves, so does your training.</p>
+      </div>
+      <div class="metrics-grid">
+        <div class="metric-card reveal">
+          <div class="metric-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 20V10M12 20V4M6 20v-6"/></svg>
+          </div>
+          <h3>Muscle Mass</h3>
+          <p>Track lean muscle growth with precision body composition analysis</p>
+        </div>
+        <div class="metric-card reveal">
+          <div class="metric-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M23 6l-9.5 9.5-5-5L1 18"/><path d="M17 6h6v6"/></svg>
+          </div>
+          <h3>Body Fat</h3>
+          <p>Monitor fat reduction progress with data-driven InBody assessments</p>
+        </div>
+        <div class="metric-card reveal">
+          <div class="metric-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+          </div>
+          <h3>Visceral Fat</h3>
+          <p>Reduce dangerous internal fat for better long-term health outcomes</p>
+        </div>
+      </div>
+
+      <!-- Testimonials -->
+      <div class="testimonials-grid">
+        <div class="testimonial-card reveal">
+          <div class="testimonial-stars">
+            <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          </div>
+          <blockquote>&ldquo;I never thought I could get such amazing results in just 20 minutes. CS FITNESS completely changed how I approach working out.&rdquo;</blockquote>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">C</div>
+            <div class="testimonial-info">
+              <strong>Camille</strong>
+              <span>Member since 2023</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card reveal">
+          <div class="testimonial-stars">
+            <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          </div>
+          <blockquote>&ldquo;As a busy mom, finding time to work out seemed impossible. Now I get an incredible full-body workout in just 20 minutes!&rdquo;</blockquote>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">D</div>
+            <div class="testimonial-info">
+              <strong>Darcy</strong>
+              <span>Member since 2023</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card reveal">
+          <div class="testimonial-stars">
+            <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          </div>
+          <blockquote>&ldquo;The low-impact training is perfect for my joints. I've gained strength and lost weight without any of the pain I used to experience.&rdquo;</blockquote>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">M</div>
+            <div class="testimonial-info">
+              <strong>Mocha</strong>
+              <span>Member since 2024</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card reveal">
+          <div class="testimonial-stars">
+            <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          </div>
+          <blockquote>&ldquo;I've been training at CS FITNESS for months and the transformation is incredible. The personalized approach makes all the difference.&rdquo;</blockquote>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">K</div>
+            <div class="testimonial-info">
+              <strong>Kellie</strong>
+              <span>Member since 2024</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section class="experience" id="experience">
+    <div class="container">
+      <div class="experience-header reveal">
+        <span class="section-label">All-Inclusive</span>
+        <h2>Your Experience Is Our #1 Priority</h2>
+        <p>Because your comfort matters just as much as your results, we offer a fully all-inclusive experience.</p>
+      </div>
+      <div class="experience-grid">
+        <div class="experience-card reveal">
+          <div class="experience-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2.69l5.66 5.66a8 8 0 11-11.31 0z"/></svg>
+          </div>
+          <h3>Premium Water</h3>
+          <p>pH-balanced premium water provided with every session</p>
+        </div>
+        <div class="experience-card reveal">
+          <div class="experience-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.38 3.46L16 2 12 3.46 8 2 3.62 3.46a2 2 0 00-1.34 2.23l.58 3.47a1 1 0 00.99.84H6v10c0 1.1.9 2 2 2h8a2 2 0 002-2V10h2.15a1 1 0 00.99-.84l.58-3.47a2 2 0 00-1.34-2.23z"/></svg>
+          </div>
+          <h3>Training Outfit</h3>
+          <p>Personal TENCEL training outfit — just show up and we handle the rest</p>
+        </div>
+        <div class="experience-card reveal">
+          <div class="experience-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M3 15h18M9 3v18M15 3v18"/></svg>
+          </div>
+          <h3>Fresh Towels</h3>
+          <p>Fresh towels provided so you can focus entirely on your workout</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Mission -->
+  <section class="mission">
+    <div class="container">
+      <div class="mission-content reveal">
+        <span class="section-label">Our Mission</span>
+        <h2>Why We Do This</h2>
+        <p class="mission-quote">
+          We aim to transform the lives and enhance the well-being of everyday individuals through the power of Electro Muscle Stimulation.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-section">
+    <div class="container">
+      <div class="cta-box reveal">
+        <h2>Ready To Change Your Life?</h2>
+        <p>Book your free intro session today and experience the future of fitness firsthand.</p>
+        <a href="book.html" class="btn btn-lg">
+          Book Free Session
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo">CS<span>FITNESS</span></a>
+          <p>Cutting-edge EMS training studio. Get fit in just 20 minutes per week with personalized 1-on-1 training.</p>
+          <div class="footer-social">
+            <a href="#" aria-label="Instagram">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zM17.5 6.5h.01"/></svg>
+            </a>
+            <a href="#" aria-label="Facebook">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+            </a>
+            <a href="#" aria-label="TikTok">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12a4 4 0 104 4V4a5 5 0 005 5"/></svg>
+            </a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Navigate</h4>
+          <a href="index.html">Home</a>
+          <a href="faqs.html">FAQs</a>
+          <a href="book.html">Book a Session</a>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <a href="#">About Us</a>
+          <a href="#">Careers</a>
+          <a href="#">Contact</a>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <a href="#">hello@csfitnessusa.com</a>
+          <a href="#">Las Vegas, NV</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2025 CS FITNESS. All rights reserved.</span>
+        <div>
+          <a href="#">Privacy Policy</a> &nbsp;&middot;&nbsp; <a href="#">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -176,26 +176,20 @@ section {
 .logo-img {
   height: 40px;
   width: auto;
+  transition: filter var(--transition);
+}
+
+.navbar.scrolled .logo-img {
+  filter: brightness(0) saturate(100%);
+}
+
+.logo-footer {
+  filter: none !important;
 }
 
 .logo {
-  font-family: var(--font-display);
-  font-size: 1.75rem;
-  font-weight: 800;
-  letter-spacing: -0.03em;
-  color: var(--white);
-}
-
-.logo span {
-  color: var(--primary-light);
-}
-
-.navbar.scrolled .logo {
-  color: var(--navy);
-}
-
-.navbar.scrolled .logo span {
-  color: var(--primary);
+  display: inline-flex;
+  align-items: center;
 }
 
 .nav-links {
